@@ -1,0 +1,9 @@
+[package]
+name = "frame-viewer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = { version = "=0.33.3", default-features = false, features = ["glow", "default_fonts","x11"] }
+
+png = "=0.18.1"
